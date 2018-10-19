@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Giphy API || Alexandria Toothman</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!---Local CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+
+</head>
+
+
+<body>
+
+    <header>
+        <h1>Drink up!</h1>
+        <h3>Beverage Gifs</h3>
+    </header>
+
+    <div class="container">
+
+        <!-- //add gif search button//  -->
+        <div class="input-group mb-3">
+            <form id="form">
+                <label for="user-input"> </label>
+                <input type="text" id="user-input">
+                <input id="submitButton" type="submit" value="submit" class="btn btn-default">
+            </form>
+
+
+
+            <!--Buttons-->
+            <div class="row">
+                <div class="buttons" id="show-buttons"></div>
+            </div>
+
+            <!--place for gifs-->
+            <div class="row">
+                <div class="col-sm-12 col-lg-12" id="show-images"></div>
+            </div>
+
+        </div>
+
+
+
+        <!--JQuery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Local javascript -->
+        <script src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>
